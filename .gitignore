@@ -1,0 +1,71 @@
+# macOS
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+.pnpm-store/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+.next/
+out/
+/build
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+.envrc.local
+.dev.vars*
+.supabase-test.local
+
+# Local editor and agent tooling
+/.codex/
+/.cursor/
+/.opencode/
+/.claude/
+
+# Legacy local caches in the private source workspace
+/run/
+/supabase/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Build artifacts
+coverage/
+build/
+dist/
+
+# Local workspace artifacts
+debugging/
+.jobpipe/
+
+# Playwright MCP browser session artifacts (snapshots/logs)
+.playwright-mcp/
+
+# Personal resume / letters (keep locally; must not be committed)
+CV*.pdf
+cv*.pdf
+*Motivation*Letter*.pdf
+
+# misc
+*.pem
+.eslintcache
